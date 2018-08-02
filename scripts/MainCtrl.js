@@ -286,7 +286,7 @@
               type: 'input',
               templateOptions: {
                   type: 'text',
-                  label: 'Referring Party\'s Last Name',
+                  label: 'Recommended Party\'s Last Name',
                   placeholder: 'Enter the recommended party\'s last name.',
                   required: true,
               }
