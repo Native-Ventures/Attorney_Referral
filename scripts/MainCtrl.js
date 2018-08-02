@@ -287,7 +287,7 @@
               templateOptions: {
                   type: 'text',
                   label: 'Recommended Party\'s Last Name',
-                  placeholder: 'Enter the recommended party\'s last name.',
+                  placeholder: 'Enter the recommended party\'s last name',
                   required: true,
               }
             },
