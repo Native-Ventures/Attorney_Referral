@@ -298,7 +298,7 @@
           templateOptions: {
             label: 'Recommendation Notes',
             placeholder: 'Please enter any notes about why you would like to recommend this attorney.',
-            description: ''
+            rows: 5
           },
         },
       ];
