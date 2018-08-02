@@ -297,7 +297,7 @@
           type: 'textarea',
           templateOptions: {
             label: 'Recommendation Notes',
-            placeholder: 'Please enter any notes about why you would like to recommend this attorney.',
+            placeholder: 'Please enter any notes about why you would like to recommend this attorney',
             rows: 5
           },
         },
