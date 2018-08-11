@@ -244,33 +244,33 @@
           fieldGroup:[
             {
               className: 'col-xs-4',
-              key: 'referring_first',
+              key: 'lateral_first',
               type: 'input',
               templateOptions: {
                   type: 'text',
-                  label: 'Referring Party\'s First Name',
+                  label: 'Lateral\'s First Name',
                   placeholder: 'Enter your first name',
                   required: true,
               }
             },
             {
               className: 'col-xs-4',
-              key: 'referring_last',
+              key: 'lateral_last',
               type: 'input',
               templateOptions: {
                   type: 'text',
-                  label: 'Referring Party\'s Last Name',
+                  label: 'Lateral\'s Last Name',
                   placeholder: 'Enter your last name',
                   required: true,
               }
             },
             {
               className: 'col-xs-4',
-              key: 'referring_email',
+              key: 'lateral_email',
               type: 'input',
               templateOptions: {
                   type: 'email',
-                  label: 'Referring Party\'s Email',
+                  label: 'Lateral\'s Email',
                   placeholder: 'Enter your last name',
                   required: true,
               }
