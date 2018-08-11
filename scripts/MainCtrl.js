@@ -222,7 +222,7 @@
       // http.send(data);
       // console.log(data);
 
-      alert("Thank you for submitting your attorney referral.");
+      alert("Thank you for submitting your referral.");
       vm.options.resetModel();
     }
 
