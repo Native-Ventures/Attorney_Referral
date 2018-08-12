@@ -240,41 +240,50 @@
       vm.fields = 
       [
         {
-          className: 'row',
-          fieldGroup:[
-            {
-              className: 'col-xs-4',
-              key: 'lateral_first',
-              type: 'input',
-              templateOptions: {
-                  type: 'text',
-                  label: 'Lateral\'s First Name',
-                  placeholder: 'Enter your first name',
-                  required: true,
-              }
-            },
-            {
-              className: 'col-xs-4',
-              key: 'lateral_last',
-              type: 'input',
-              templateOptions: {
-                  type: 'text',
-                  label: 'Lateral\'s Last Name',
-                  placeholder: 'Enter your last name',
-                  required: true,
-              }
-            },
-            {
-              className: 'col-xs-4',
-              key: 'lateral_email',
-              type: 'input',
-              templateOptions: {
-                  type: 'email',
-                  label: 'Lateral\'s Email',
-                  placeholder: 'Enter your last name',
-                  required: true,
-              }
-            },
+          className: 'col-xs-3',
+          key: 'lateral_first',
+          type: 'input',
+          templateOptions: {
+              type: 'text',
+              label: 'Lateral\'s First Name',
+              placeholder: 'Enter your first name',
+              required: true,
+          }
+        },
+        {
+          className: 'col-xs-3',
+          key: 'lateral_last',
+          type: 'input',
+          templateOptions: {
+              type: 'text',
+              label: 'Lateral\'s Last Name',
+              placeholder: 'Enter your last name',
+              required: true,
+          }
+        },
+        {
+          className: 'col-xs-3',
+          key: 'lateral_email',
+          type: 'input',
+          templateOptions: {
+              type: 'email',
+              label: 'Lateral\'s Email',
+              placeholder: 'Enter your last name',
+              required: true,
+          }
+        },
+        {
+          className: 'col-xs-3',
+          key: 'submission_dte',
+          type: 'datepicker',
+          templateOptions: {
+              type: 'text',
+              label: 'Submission Date',
+              // datepickerPopup: "dd-MM-YYYY",
+              required: true
+
+          }
+        },
           ]
         },
         {
