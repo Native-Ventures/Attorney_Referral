@@ -268,7 +268,7 @@
           templateOptions: {
               type: 'email',
               label: 'Email',
-              placeholder: 'Enter your last name',
+              placeholder: 'Enter your email',
               required: true,
           }
         },
@@ -491,7 +491,7 @@
                 },
                 {
                   type: 'textarea',
-                  key: 'notes'
+                  key: 'notes',
                   templateOptions: {
                     label: 'Notes',
                     placeholder: 'Please enter any notes about why you would like to recommend this attorney',
