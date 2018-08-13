@@ -245,7 +245,7 @@
           type: 'input',
           templateOptions: {
               type: 'text',
-              label: 'Lateral\'s First Name',
+              label: 'First Name',
               placeholder: 'Enter your first name',
               required: true,
           }
@@ -256,7 +256,7 @@
           type: 'input',
           templateOptions: {
               type: 'text',
-              label: 'Lateral\'s Last Name',
+              label: 'Last Name',
               placeholder: 'Enter your last name',
               required: true,
           }
@@ -267,7 +267,7 @@
           type: 'input',
           templateOptions: {
               type: 'email',
-              label: 'Lateral\'s Email',
+              label: 'Email',
               placeholder: 'Enter your last name',
               required: true,
           }
@@ -290,7 +290,7 @@
         templateOptions: 
           {
             btnClass: "btn btn-block btn-attorney",
-            btnText: "Recommend Another Attorney",
+            btnText: "Add Another Attorney",
             removebtnText: "Remove Attorney",
             fields: 
               [
@@ -491,8 +491,9 @@
                 },
                 {
                   type: 'textarea',
+                  key: 'notes'
                   templateOptions: {
-                    label: 'Recommendation Notes',
+                    label: 'Notes',
                     placeholder: 'Please enter any notes about why you would like to recommend this attorney',
                     rows: 3
                   },
