@@ -393,8 +393,8 @@
             templateOptions: {
               label: 'Office',
               options: [
-                {name: 'New York City', value: 'nyc'},
-                {name: 'Chicago', value: 'chg'},
+                {name: 'New York', value: 'newyork'},
+                {name: 'Chicago', value: 'chicago'},
                 {name: 'Other', value: 'other'},
               ],
                 required: false
