@@ -240,7 +240,7 @@
       vm.fields = 
       [
         {
-          className: 'col-xs-3',
+          className: 'col-xs-4',
           key: 'lateral_first',
           type: 'input',
           templateOptions: {
@@ -251,7 +251,7 @@
           }
         },
         {
-          className: 'col-xs-3',
+          className: 'col-xs-4',
           key: 'lateral_last',
           type: 'input',
           templateOptions: {
@@ -262,7 +262,7 @@
           }
         },
         {
-          className: 'col-xs-3',
+          className: 'col-xs-4',
           key: 'lateral_email',
           type: 'input',
           templateOptions: {
@@ -270,18 +270,6 @@
               label: 'Email',
               placeholder: 'Enter your email',
               required: true,
-          }
-        },
-        {
-          className: 'col-xs-3',
-          key: 'submission_date',
-          type: 'datepicker',
-          templateOptions: {
-              type: 'text',
-              label: 'Submission Date',
-              // datepickerPopup: "dd-MM-YYYY",
-              required: true
-
           }
         },
         {
